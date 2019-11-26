@@ -35,12 +35,14 @@ Hero Monster Battle Requirements
 8.  Create a helper method in the Default/Main  class to display the stats of each character.
 
 9.  You will create a helper method in the Main class called displayResult() which accepts two input parameters, opponent1 and opponent2.  Depending on their health, determine the winner and print out a winning message using both their names.  If they both have health less than or equal to zero, then print out a message that they both died.
+
+
 Programming Requirements:
 Classes and Interfaces must be in separate files (not in the program.cs)
 •	Must incorporate at least two of the three tenants of OOO
-    Inheritance
-    PolyMorphism
-    Encapsulation
+        Inheritance
+        PolyMorphism
+        Encapsulation
 •	Must follow good OOO form
 •	Must instantiate at least two classes (separate files)
 •	Must use at least one interface
@@ -54,5 +56,3 @@ Classes and Interfaces must be in separate files (not in the program.cs)
 •	add addition features to make the battle more complex
 •	use a design pattern
 •	other bonus ideas will be entertained but must be approved in advance.
-
-
