@@ -55,14 +55,4 @@ Classes and Interfaces must be in separate files (not in the program.cs)
 •	use a design pattern
 •	other bonus ideas will be entertained but must be approved in advance.
 
-Program layout should look similar to:
- 
-
-
-
-
-
-Your program output should look similar (but does not need to be exactly) like the below:
- 
-
 
