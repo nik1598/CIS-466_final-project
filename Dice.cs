@@ -14,7 +14,7 @@ namespace HeroMonsterBattle_FinalProject
 
         public int Roll()
         {
-            return random.Next(1, this.Sides);     // Resturns random damage based on Sides propertiy, which is based on MaximumDamage
+            return random.Next(1, this.Sides);     // Returns random damage based on Sides property, which is based on MaximumDamage
         }
     }
 }
