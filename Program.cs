@@ -17,7 +17,7 @@ namespace HeroMonsterBattle_FinalProject
             hero.DamageMaximum = 20;
             hero.AttackBonus = false;
  
-            //Setting properties for our hero
+            //Setting properties for our monster
             Character monster = new Character();
             monster.Name = "Monster";
             monster.Health = 100;
