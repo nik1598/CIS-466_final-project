@@ -23,6 +23,8 @@ namespace HeroMonsterBattle_FinalProject
             monster.Health = 100;
             monster.DamageMaximum = 18;
             monster.AttackBonus = false;
+            
+            Dice dice = new Dice();
         }
     }
 }
