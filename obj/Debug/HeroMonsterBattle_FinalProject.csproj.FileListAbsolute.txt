@@ -1,0 +1,6 @@
+C:\Users\qrych\source\repos\HeroMonsterBattle_FinalProject\HeroMonsterBattle_FinalProject\bin\Debug\HeroMonsterBattle_FinalProject.exe.config
+C:\Users\qrych\source\repos\HeroMonsterBattle_FinalProject\HeroMonsterBattle_FinalProject\bin\Debug\HeroMonsterBattle_FinalProject.exe
+C:\Users\qrych\source\repos\HeroMonsterBattle_FinalProject\HeroMonsterBattle_FinalProject\bin\Debug\HeroMonsterBattle_FinalProject.pdb
+C:\Users\qrych\source\repos\HeroMonsterBattle_FinalProject\HeroMonsterBattle_FinalProject\obj\Debug\HeroMonsterBattle_FinalProject.csprojAssemblyReference.cache
+C:\Users\qrych\source\repos\HeroMonsterBattle_FinalProject\HeroMonsterBattle_FinalProject\obj\Debug\HeroMonsterBattle_FinalProject.exe
+C:\Users\qrych\source\repos\HeroMonsterBattle_FinalProject\HeroMonsterBattle_FinalProject\obj\Debug\HeroMonsterBattle_FinalProject.pdb
