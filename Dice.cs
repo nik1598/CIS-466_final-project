@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +14,7 @@ namespace HeroMonsterBattle_FinalProject
 
         public int Roll()
         {
-            return random.Next(1, this.Sides);     // Returns random damage based on Sides property, which is based on MaximumDamage
+            return random.Next(1, this.Sides);     // Returning a random damage amount. Sides based on max damage.
         }
     }
 }

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,39 +6,47 @@ using System.Threading.Tasks;
 
 namespace HeroMonsterBattle_FinalProject
 {
-    class Character
+    class Character 
     {
         // adding properties
         public string Name { get; set; }
         public int Health { get; set; }
         public int DamageMaximum { get; set; }
-        public bool AttackBonus { get; set; }
+        public int AttackBonus { get; set; }
 
         public Character() //Default constructer
         {
         } 
 
-        public Character(string name, int health, int damageMaximum, bool attackBonus)
+        public Character(string name, int health, int damageMaximum,  int attackBonus)
         {
             Name = name;
             Health = health;
             DamageMaximum = damageMaximum;
             AttackBonus = attackBonus;
-
         }
 
-       
-
-        public int Attack(Dice dice) // Sets Sides property equal to maximun damage, returns a random int between 0 and DamageMaximum
+        public int Attack(Dice dice)
         {
-            dice.Sides = DamageMaximum;     
-            int damageAmount = dice.Roll(); 
+            dice.Sides = DamageMaximum;     // Setting the Sides property to the maximum amount of damage.
+            int damageAmount = dice.Roll(); // Getting the damage amount based on a random number. 1 - damage max.
             return damageAmount;
         }
 
-        public void Defend(int damage) //deducts the damage from this Character's health
+        public int Defend(int damage )
         {
-            this.Health -= damage;
+            // Use a 10 sided die
+            Dice dice = new Dice();
+            dice.Sides = 10;
+            int bonusAttack = dice.Roll();
+
+            // Both the hero and monster have a 20% chance to hit a bonus attack
+            if (bonusAttack > 8) 
+                return this.Health - (damage + AttackBonus);
+            else
+                return this.Health - damage;
         }
+
+        
     }
 }
